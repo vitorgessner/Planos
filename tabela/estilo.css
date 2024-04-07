@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+table {
+    font-size: 36px;
+    padding: 6px 5px;
+    border-collapse: collapse;
+}
+
+th {
+    padding: 20px 50px;
+    background-color: white;
+    font-size: 28px;
+}
+
+td {
+    background-color: white;
+    color:#565656;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 150px;
+}
+
+.header th {
+    border-top: 3px solid;
+}
+
+/* coloração em zebra */
+.fundo td {
+    background-color: #ebebeb;
+}
+
+/* área do purchase */
+.footer td {
+    padding: 50px;
+}
+
+.footer a {
+    text-decoration: none;
+    border: 2px solid;
+    padding: 10px;
+    border-radius: 7px;
+    font-weight: 600;
+}
+
+.footer a:hover {
+    background-color: #56565610;
+}
+/* fim área purchase */
+
+/* área do preço */
+.preco td {
+    padding: 10px 25px;
+    font-size: 40px;
+    font-weight: 550;
+    color: white;
+}
+
+/* cor texto e borda */
+.verde {
+    color: #60CB71;
+}
+.roxo {
+    color: #5F5DAC;
+}
+.azul {
+    color: #1F81D3;
+}
+/*  */
+
+/* fundo dos preços */
+.fundo-verde {
+    background-color: #60CB71;
+}
+.fundo-roxo {
+    background-color: #5F5DAC;
+}
+.fundo-azul {
+    background-color: #1F81D3;
+}
+/*  */
+
+/* borda de baixo do footer */
+.borda-verde {
+    border-bottom: 3px solid;
+    color: #60CB71;
+}
+.borda-roxo {
+    border-bottom: 3px solid;
+    color: #5F5DAC;
+}
+.borda-azul {
+    border-bottom: 3px solid;
+    color: #1F81D3;
+}
+
+/* separação das colunas */
+td, th {
+    border-right: 10px solid #d9d9d9;
+}
+
+div {
+    background-color: #d9d9d9;
+    width: 1080px;
+    height: 513px;
+    margin: 150px auto;
+    padding: 10px;
+}
